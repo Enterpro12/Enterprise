@@ -1,0 +1,25 @@
+/* navigation bar */ 
+ul {
+    list-style-type: none;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #151515;
+}
+li {
+    float: none;
+	padding-top: 5px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #ECC90D; 
+	color: white;
+}
+li .active{
+	background-color: #ECC90D;
+}

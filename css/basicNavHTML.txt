@@ -1,0 +1,19 @@
+ <!-- basic nav bar without side drop down. -->
+ <!-- Navigation Bar -->
+	  <div class="navbar" id="myNavbar"><ul>
+		  
+<li><a class="active" href="index.html">Home</a></li>
+		  <li><a href="about.html">About</a></li>
+		
+				  <li><a href="research_and_education.html">Team</a></li>
+				  <li><a href="research_and_education.html">Projects</a></li>
+				  <li><a href="research_and_education.html">Publications</a></li>
+				  <li><a href="research_and_education.html">Collaborations</a></li>
+				  <li><a href="research_and_education.html">Software & Tools</a></li>
+				  <li><a href="research_and_education.html">Data Repository</a></li>
+				  <li><a href="research_and_education.html">Opportunities</a></li>
+				  <li><a href="research_and_education.html">Research & Education</a></li>
+				  <li><a href="contact_infomation.html">Contact Us</a></li>
+		  
+</ul>
+			  </div>
