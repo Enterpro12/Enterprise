@@ -23,6 +23,7 @@ body {
   font-size: 35px;
 	height: 130px;
 }
+
 #header_logo{
 	float: left;
 	height: auto;
@@ -31,9 +32,7 @@ body {
 	bottom: 20%;
 	left: 0.5%;	
 }	
-
-/*second logo 
-
+/*second logo */
 #second_logo{
 	float: right;
 	height: auto;
@@ -43,7 +42,7 @@ body {
 	right: 0.5%;	
 }	
 
-*/
+
 
 
 /* Creates three unequal columns that floats next to each other */
@@ -125,7 +124,7 @@ body {
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: #D217DD;
+  background-color: lightgreen;
   padding-left: 8px;
 }
 
@@ -181,9 +180,6 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
-
-*/
 
 
 
