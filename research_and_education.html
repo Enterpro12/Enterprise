@@ -1,16 +1,26 @@
 <!doctype html>
 <html>
 <head>
-<title>About the Center</title>
-<link rel="stylesheet" href="css/about.css">
+<title>Team</title>
+<link rel="stylesheet" href="css/team.css">
 
 	
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<script type="text/javascript">
+    function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script>
+	
 </head>
 
-	<body>
-	
+<body>	
 <div class="header">
   <a href="index.html"> <img id="header_logo" src="images/university_logo.png" alt="University Logo"></a> 
 	<a href="index.html"> <img id="second_logo" src="images/AAA.png" alt="Advanced Automotive Analytics Logo"></a> 
@@ -25,9 +35,7 @@
 	 
 	 <a href="index.html">Home</a>
 	 <a href="about.html">About the Center</a>
-		  
-			 
-		  <button class="dropdown-btn">Team
+			  <button class="dropdown-btn">Team
 				  <em class="fa fa-caret-down"></em>
 			  </button>
 
@@ -37,6 +45,7 @@
 				  <a href="#">Ph.D. Students</a>
 				  <a href="#">Former members</a>			  
 				  </div>
+		  <input type=button value="TeamGo" onclick="goToNewPage()" />
 	 
 			<button class="dropdown-btn">Projects
 				  <em class="fa fa-caret-down"></em>
@@ -95,21 +104,35 @@
   <div class="column middle">
 	<div class="main_column" >
 <div class="about_container">
+<h2 id="RandE_heading"> Research & Education:</h2>
+	
+	<p class="RandE_info"> 
+	<h3 id="RandE_heading"> Opportunities for interns: </h3>
+	
+	Currently there is no project for interns.
+	
+	<h3 id="RandE_heading"> Current proposals for MSc dissertation:</h3>
+	
+	Currently there is no proposals for MSc dissertation.
+	
+	<h3 id="RandE_heading"> Current proposals for BSc final projects: </h3>
+	
+	Currently there is no proposals for BSc final project.
 
-	<h2 id="About_heading"> About the Center</h2>
 	
-	<p class="about_us_info"> AAA team are bringing together research expertise in data science, machine learning and data quality and representation, and long-standing knowledge, expertise and experience over a broad range of Mechanical and Automotive Engineering research topics with a focus in automotive healthcare, engineering, systems, and manufacturing. The members' research is applied to information representation and integration, data mining, knowledge discovery and data governance. <br>
+	<h3 id="RandE_heading"> Example of past BSc projects and MSc dissertation: </h3>
 	
-	The AAA Institute provides a unique set of world class computational and analytics facilities with associated hardware and software for automotive analytics research including powertrain, quality, design, modelling, and simulation. Our team's mission is to support knowledge discovery from complex automotive engineering challenges with fresh innovative multidisciplinary, multi-objective optimisation and computational viewpoints for research and knowledge transfer contributions and collaborations.
+	Not available.
+	
+	<h3 id="RandE_heading"> Courses offered: </h3>
+	
+	Currently, there is no course.
+
+
+
 	<br>
 	<br>	
-	<br>	
-	<br>
-	<br>	
-	<br>	
-	<br>	
-	<br>
-	<br>
+	
  </p>
 </div>
 </div>
@@ -117,22 +140,13 @@
   </div>
   
 		  
-<div class="column side">
-	<input type="text" name="search" placeholder="Search..">
-	
-	<p class="business_details">Advanced Automotive Analytics (AAA) Research Centre <br>
-		University of Bradford  <br> 
-		Faculty of Engineering & informatics <br>
-		Bradford BD7 1DP, UK  <br> 
-		+44 (0) 1274 233993 
-		<br>                                               <br>                                               <br>                                               <br>                                               <br>                                               <br>                                               <br>                                               <br>                                               <br>                                               <br>                                               <br>                                               <br>                                         <br>     </p>                                          
-	</div>
+
 </div>
 	
 				  
 				  
-				  
+		<script src="js/dropdown.js"></script>
 	
-	<script src="js/dropdown.js"></script>
-</body>
+	
+	</body>
 </html>
