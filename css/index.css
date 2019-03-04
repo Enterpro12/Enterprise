@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+
+
 /*Coloumn layout*/
 * {
   box-sizing: border-box;
@@ -40,20 +42,26 @@ body {
 	right: 0.5%;	
 }	
 
-/* column for the left hand side */
+
+
+
+/* Creates three unequal columns that floats next to each other */
 .column {
   float: left;
   padding: 10px;
-  height: auto;
-	width: 15%;
-  background-color:#ccc;
+  height: auto; 
 }
 
+/* Left and right column */
+.column.side {
+	background-color:#ccc;
+  width: 15%;
+}
 
 /* Middle column */
 .column.middle {
 	background-color: #bbb;
-	width: 85%;
+	width: 70%;
 	height: auto;
 }
 /* Clear floats after the columns */
@@ -62,6 +70,9 @@ body {
   display: table;
   clear: both;
 }
+
+
+
 
 /*drop down*/ 
 /* Fixed sidenav, full height inside the coloumn*/
@@ -130,4 +141,65 @@ body {
 }
 
 
+
+/*main slideshow*/
+.animation_container{
+	position: relative;
+	width: 100%; 
+}
+.animation_container img{
+	height: auto;
+	width: 100%;
+}
+.hideimg{
+	display: none;
+}
+.animation_container .left_arrow{
+	position: absolute;
+    top: 50%;
+    left: 0%;
+}
+.animation_container .right_arrow{
+	position: absolute;
+    top: 50%;
+    right: 0%; 
+}
+
+.left_arrow,.right_arrow {
+    background-color: #ECC90D;
+    border: 2px solid #ECC90D;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.left_arrow:hover, .right_arrow:hover{
+    background-color: white;
+    color: #ECC90D;
+    border: 2px solid #ECC90D;
+}
+
+/* search bar*/
+input[type=text] {
+  width: 210px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url(../images/searchicon.png);
+  background-position: 1px px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
 
