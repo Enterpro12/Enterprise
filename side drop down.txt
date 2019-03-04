@@ -1,0 +1,68 @@
+  <!-- Side Nav Bar-->
+
+<div class="sidenav">
+	
+	<a href="index.html">Home</a>
+	<a href="about.html">About</a>
+
+		  
+			<button class="dropdown-btn">Team
+				  <em class="fa fa-caret-down"></em>
+			  </button>
+
+			  <div class="dropdown-container">
+				  <a href="#">Professors</a>
+				  <a href="#">Postdoctoral researchers</a>
+				  <a href="#">Ph.D. Students</a>
+				  <a href="#">Former members</a>			  
+				  
+			<button class="dropdown-btn">Projects
+				  <em class="fa fa-caret-down"></em>
+			  </button>
+			  <div class="dropdown-container">
+				  <a href="#">Project 1</a>
+				  <a href="#">Project 2</a>
+				  				  
+			<button class="dropdown-btn">Publications
+				  <em class="fa fa-caret-down"></em>
+			  </button>
+			  <div class="dropdown-container">
+				  <a href="#">Journal</a>
+				  <a href="#">Conference</a>
+				  <a href="#">Poster</a>
+				  
+			<button class="dropdown-btn">Collaborations
+				  <em class="fa fa-caret-down"></em>
+			  </button>
+			  <div class="dropdown-container">
+				  <a href="#">Jaguar Land Rover</a>
+				  <a href="#">Eminax</a>
+				  
+			<button class="dropdown-btn">Software & Tools
+				  <em class="fa fa-caret-down"></em>
+			  </button>
+			  <div class="dropdown-container">
+				  <a href="#">ECU Data Analysis</a>
+				  
+			<button class="dropdown-btn">Data Repository
+				  <em class="fa fa-caret-down"></em>
+			  </button>
+			  <div class="dropdown-container">
+				  <a href="#">ECU data</a>
+				  <a href="#">Warranty data</a>
+				  <a href="#">Engine test data</a>
+				  
+			<button class="dropdown-btn">Opportunities
+				  <em class="fa fa-caret-down"></em>
+			  </button>
+			  <div class="dropdown-container">
+				  <a href="#">Ph.D. position</a>
+				  <a href="#">Postdoc position</a>
+				  
+				  <a href="research_and_education.html">Research & Education</a>
+				  <a href="contact_infomation.html">Contact Us</a>
+		  
+
+			  </div>
+</div>
+  </div>
